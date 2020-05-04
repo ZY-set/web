@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>新闻播放</title>
+
+	<style>
+		div{
+			margin: 0;
+			padding: 0;
+
+		}
+		li{
+			list-style: none;
+		}
+		.nv{
+			width: 298px;
+			height: 250px;
+			background-image: url(line.jpg);
+			/*块级盒子居中*/
+			margin: auto;
+			/*外上边距*/
+			margin-top: 40px;
+			/*边框设置宽度，实现，颜色*/
+			border: 1px solid pink;
+			/**内边距*/
+			padding: 15px;
+
+		}
+		.nv h2{
+			font-size: 19px;
+			border-bottom: 1px solid #ccc;
+			padding: 5px 0;
+			margin-bottom: 10px
+		}
+		.nv ul li{
+			height: 30px;
+			line-height: 30px;
+			border-bottom: 1px dashed #ccc;
+			background-image: url(arr.jpg);
+			background-size: 10px;
+			background-position: left;
+			background-repeat: no-repeat;
+			padding-left: 20px
+
+		}
+		.nv ul li a{
+			text-decoration: none;
+			color: #333;
+			font-size: 12px;
+		}
+		.nv ul li a:hover{
+			color: green;
+		}
+
+
+</style>
+</head>
+<body>
+	<div class="nv"><h2>最新文章/New Articles</h2>
+		<ul>
+			<li><a href="#">北京招聘网页设计，平面设计，php</a></li>
+			<li><a href="#">体验javascript的魅力</a></li>
+			<li><a href="#">jquery世界来临</a></li>
+			<li><a href="#">网页设计师的梦想</a></li>
+			<li><a href="#">jquery中的链式编程是什么</a></li>
+			<li><a href="#">JAVA</a></li>
+		</ul>
+	</div>
+	
+</body>
+</html>
