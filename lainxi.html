@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>搜索</title>
+	<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	li{
+		list-style: none;
+	}
+	h2{
+		height: 35px;
+		line-height: 35px;
+		/*边框底部*/
+		border-bottom: 1px solid #ccc;
+		/*内左边距*/
+		padding-left: 12px;
+
+	}
+	.sou{
+		width: 235px;
+		/*所有边框*/
+		border: 1px solid #ccc;
+		/*边框头部覆盖*/
+		border-top: 2px solid #FF8400;
+		/*外边距*/
+		margin: 60px auto;
+		/*内边距*/
+		padding: 15px;
+	}
+	img{
+		/*内上边距*/
+		padding-top: 5px;
+		margin: 1px;
+	}
+	.sou ul{
+		font-size: 14px;
+		margin: 5px;
+
+	}
+	ul li{
+		font-size: 12px;
+		background-image:url(images/square.png);
+		/*图片位置*/
+		background-position: left;
+		/*图片不伸缩*/
+		background-repeat: no-repeat;
+		padding-left: 10px;
+		
+		
+	}
+	li a{
+		/*取消文本装饰*/
+		text-decoration: none;
+
+	}
+	/*链接伪类选择器*/
+	li a:hover{
+		color: red;
+		/*下划线*/
+		text-decoration: underline;;
+
+	}
+
+
+
+
+
+</style>
+</head>
+<body>
+	<div class="sou">
+		<h2 style="font-weight: 500">搜索趣图</h2>
+		<img src="images/happy.gif" title="小朋友">
+		<ul>
+     		<li><a href="http://www.baidu.com" target="_blank">GIF：小胖墩游泳被卡 被救后一脸无辜</a></li>
+     		<li><a href="#">GIF：小胖墩游泳被卡 被救后一脸无辜</a></li>
+     		<li><a href="#">GIF：小胖墩游泳被卡 被救后一脸无辜</a></li>
+     	</ul>
+
+
+	</div>
+	
+</body>
+</html>
