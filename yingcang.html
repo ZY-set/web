@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	.one{
+		position: relative;
+		width: 222px;
+		height: 220px;
+		margin: 20px auto;
+		border: 1px solid red;
+		
+	}
+	.two{
+		position: absolute;
+		width: 222px;
+		height: 220px;
+		display: none;
+		background:url(3.jpg);
+		background: rgba(0,0,0,.3);
+	}
+	a:hover .two{
+		display: block;
+	}
+	
+
+
+	</style>
+
+</head>
+<body>
+	<div class="one">
+		<a href="#">
+			<div class="two"></div>
+		<img src="3.jpg" alt="">
+		
+	</a>
+	</div>
+</body>
+</html>
