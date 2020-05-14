@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>综合</title>
+	<style>
+		/*清除默认边距*/
+		*{
+		margin: 0;
+		padding: 0;
+
+		}
+		/*清除列表风格*/
+		li{
+			list-style: none;
+		}
+		.dh{
+			width: 760px;
+			height: 150px;
+			/*background-color: pink;*/
+			background-image: url(images/banner.jpg);
+			/*模块居中*/
+			margin: auto;
+		}
+		.nbv{
+			width: 760px;
+			height: 32px;
+			margin: auto;
+			background-image: url(images/nav_bg.jpg);
+			margin-bottom: 10px;
+		}
+		.nbv ul li{
+			/*向左浮动*/
+			float: left;
+			/*内边距*/
+			padding: 5px;
+			
+
+		}
+		.nbv li a{
+			/*文本装饰取消*/
+			text-decoration: none;
+			background-image: url(images/button1.jpg);
+			/*行内块*/
+			display: inline-block;
+			/*图片伸缩*/
+			background-repeat: no-repeat;
+			color: skyblue;
+		}
+		/*伪类选择器*/
+		.nbv li a:hover{
+			background-image: url(images/button2.jpg);
+			color: red;
+		}
+		.box{
+			width: 1226px;
+			height: 615px;
+			background-color: #ccc;
+		}
+		.left{
+			/*左浮动*/
+			float: left;
+			width: 234px;
+			height: 615px;
+			/*background-color: #fff;*/
+			background-image: url(xm.png);
+		}
+		.right{
+			float: right;
+			width: 992px;
+			height: 615px;
+			
+			
+
+		}
+		
+		.right ul li{
+			float: left;
+			width: 234px;
+			height: 300px;
+			/*外部间距*/
+			margin-bottom: 14px;
+			margin-left: 14px;
+			background-image: url(mi.png);
+		}
+		.right ul li:hover{
+			width: 234px;
+			height: 300px;
+			background-image: url(1.jpg);
+		}
+		.ac{
+			float: right;
+			width: 265px;
+			height: 380px;
+			background-image: url(images/bg.gif);
+
+		}
+		.ac h2{
+			font-weight: 500px;
+			border-left: 4px solid #C9E143;
+			margin-left: 10px;
+			margin-top: 10px;
+		}
+		.ac li{
+			width: 220px;
+			background-color: #fff;
+			
+		}
+		.ac li a{
+			font-size: 16px;
+			text-decoration: none;
+			background-image: url(images/tb.gif);
+			background-repeat: no-repeat;
+			border-bottom: 1px dashed green;
+
+
+		}
+		.ic{
+			width: 260px;
+			height: 280px;
+			float: left;
+			border: 1px solid skyblue;
+			border-top: 2px solid #FF8400;
+			margin-top: 20px;
+			margin-left: 25px;
+
+
+		}
+		.ic img{
+			/*外间距 上右下左*/
+			margin: 10px 15px 10px 15px;
+		}
+		.ic h3{
+			margin-left: 10px;
+		}
+		.ic li a{
+			text-decoration: none;
+			color: pink;
+			font-size: 13px;
+		}
+
+		.ic li a:hover{
+			/*下划线*/
+			text-decoration: underline;
+			color: red;
+		}
+		.bd{
+			width: 700px;
+			/*边框线 大小 实线 颜色*/
+			border: 1px solid skyblue;
+			border-top: 2px solid red;
+			margin: 20px auto;
+
+		}
+		.bd h2{
+			font-weight: 600px;
+			text-align:center;
+		}
+		.bd .xb{
+			text-align: center;
+		}
+		.tp img{
+			margin: 10px 60px;
+		}
+		.xl{
+			border: 1px dashed skyblue;
+			margin: 10px 30px;
+			/*首行缩进*/  
+			text-indent: 2em;
+		}
+		.ln{
+			border: 1px dashed red;
+			margin: 10px 30px;
+			text-indent: 2em;
+		}
+		.pl{
+			text-align: right;
+		}
+		.gz{
+			margin: 10px 30px;
+			text-indent: 2em;
+			color: skyblue;
+
+		}
+		.zc{
+			margin: 10px 30px;
+		}
+		.zc a{
+			text-decoration: none;
+			color: #F86934;
+		}
+		.zc a:hover{
+			text-decoration: underline;
+			color: #3CC689;
+		}
+		.wj{
+			margin: 10px 30px;
+			border: 1px solid red;
+			text-align: center;
+		}
+		.wj a{
+			text-decoration: none;
+		}
+		.wj a:hover{
+			color: red;
+			
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="dh"></div>
+	<div class="nbv">
+		<ul>
+			<li><a href="http://mi.com" target="_blank">网站首页</li>
+			<li><a href="#">网站搜索</li>
+			<li><a href="#">网站记录</li>
+			<li><a href="#">网站登录</li>
+			<li><a href="#">网站退出</li>
+		</ul>
+
+	</div>
+	<hr />
+	<div class="ac"><h2>爱宠知识</h2>
+		<ul>
+			<li><a href="#">养狗比养猫对健康更有利</a></li>
+    		<li><a href="#">日本正宗柴犬亮相，你怎么看柴犬</a></li>
+    		<li><a href="#">狗狗歌曲《新年旺旺》</a></li>
+    		<li><a href="#">带宠兜风，开车带宠需要注意什么？</a></li>
+    		<li><a href="#">【爆笑】这狗狗太不给力了</a></li>
+    		<li><a href="#">狗狗与男童相同着装拍有爱造型照</a></li>
+    		<li><a href="#">狗狗各个阶段健康大事件</a></li>
+    		<li><a href="#">调皮宠物狗陷在沙发里的搞笑瞬间</a></li>
+    		<li class="none"><a href="#">为什么每次大小便后，会用脚踢土？</a></li>
+		</ul>
+	</div>
+	
+	<div class="box">
+		<div class="left"></div>
+		<div class="right">
+			<ul>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+
+	</div>
+	<hr />
+	<div class="ic">
+     	<h3>搜索趣图</h3>
+     	<img src="images/happy.gif" height="160" width="218" alt="">
+     	<ul>
+     		<li><a href="#">GIF：小胖墩游泳被卡 被救后一脸无辜</a></li>
+     		<li><a href="#">GIF：小胖墩游泳被卡 被救后一脸无辜</a></li>
+     		<li><a href="#">GIF：小胖墩游泳被卡 被救后一脸无辜</a></li>
+     	</ul>
+     </div>
+
+    <div class="bd">
+     <div>
+     <h2>鲁能热身赛16-0大胜业余队 野牛4球蒙蒂略戴帽</h2>
+ 	</div>
+	<div class="xb">
+	<span style="color: red;">2015年08月08日18:19</span>    新浪体育 <span style="color: blue">微博</span>	我有话说<span style="color: purple">(10,370人参与) </span>收藏本文
+	</div>
+	<div class="tp">
+		<img src="images/img.jpg">
+	</div>
+	<div style="text-align: center;">鲁能热身赛16-0大胜</div>
+	
+　　<div class="xl">
+	新浪体育讯　　北京时间8月8日消息，山东鲁能俱乐部在训练基地内与业余球队山东太阳金店足球俱乐部进行了一场热身赛，最终鲁能以16-0大胜对手，阿洛伊西奥上演大四喜，韩鹏和蒙蒂略完成帽子戏法，尤西雷梅开二度，塔尔德利、赵明剑、张文钊、成源均取得进球。
+	</div>
+
+	<div class="ln"><a href="#" style="text-decoration: none;">鲁能泰山足球新闻：</a>#鲁能泰山#鲁能热身赛16-0击败一支业余球队，韩鹏和蒙蒂略帽子戏法，野牛大四喜，尤西雷梅开二度，塔尔德利、赵明剑、张文钊、成源取得进球。
+	<div class="pl">2015-08-08 17:54 来自百度浏览器 转发(49) | 收藏 | 评论(50)</div>
+	</div>
+
+　　<div class="gz">
+	由于国足征战东亚杯比赛，中超联赛获得了两周的间歇期，山东鲁能训练备战同时，也邀请了一支业余球队进行热身赛。尽管王大雷、王永珀、杨旭、王彤等人随国足征战东亚杯，但鲁能还是派出了现有最强阵容，以16-0大胜了对手，据悉上半场就取得了9-0的领先，尽管与业余球队比赛，胜负并不重要，但这样的大比分胜利也能看出鲁能全队目前状态不错。
+	</div>
+
+　　<div class="gz">下周三中超第22轮就将打响，山东鲁能客场挑战北京国安，两支争冠球队的直接对话，无疑是本轮最焦点之战。由于国足本周日才结束东亚杯赛事，鲁能阵中的国脚体能能恢复多少非常关键，而以现有的鲁能球员组成的阵容，实力也绝对不容小觑。(瑪塔)</div>
+
+<div class="zc">文章关键词：<a href="#">中超</a>
+<a href="#">鲁能</a>
+<a href="#">阿洛伊西</a>
+<a href="#">奥蒙蒂略</a>
+</div>
+
+<div class="wj"><a href="http://www.baidu.com" target="_blank">点击下载【新浪体育客户端】，赛事视频直播尽在掌握</a></div>
+</div>
+	
+</body>
+</html>
