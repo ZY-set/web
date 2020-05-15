@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>定位</title>
+	<style>
+	/*子绝父相*/
+		.hd{
+			/*父亲为相对布局*/
+			position: relative;
+			border: 1px solid #ccc;
+			width: 310px;
+			height: 190px;
+			margin: 30px auto;
+			padding: 10px;
+
+		}
+		.top{
+			/*儿子为绝对布局*/
+			position: absolute;
+			/*元素边距离*/
+			bottom: 0;
+			right:  0;
+		}
+		.bd{
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="hd">
+		<img src="images/adv.jpg">
+		<img src="images/br.gif" class="top">
+		<img src="images/top_tu.gif" class="bd">
+	</div>
+</body>
+</html>
