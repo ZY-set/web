@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>taobao</title>
+	<style>
+	li{
+		list-style: none;
+	}
+	.tb{/*父亲相对定位*/
+		position: relative;
+		width: 520px;
+		height: 280px;
+		border: 1px solid #ccc;
+		margin: auto;
+
+	}
+	.z{
+		/*儿子绝对定位*/
+		position: absolute;
+		width: 20px;
+		height:20px;
+		left: 0;
+		top: 50%;
+		margin-top: -4px;
+		background: rgba(0,0,0,.2);
+		text-decoration: none;
+	}
+	.z:hover{
+		background: rgba(0,0,0,.4);
+	}
+	.y{
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		right: 0;
+		top: 50%;
+		margin-top: -4px;
+		background:rgba(0,0,0,.2);
+	}
+	.y:hover{
+		background:rgba(0,0,0,.4);
+	}
+	.a{
+		position: absolute;
+		width: 70px;
+		height: 13px;
+		bottom: 10px;
+		left: 50%;
+		margin-left: -25px;
+		background:rgba(255,255,255,.3);
+		border-radius: 7px;
+	}
+	li{
+			width: 8px;
+			height: 8px;
+			float: left;
+			border-radius: 50%;
+			background-color: #fff;
+			margin:  3px;
+
+	}
+	.ii{
+		background-color: skyblue;
+	}
+
+	</style>
+</head>
+<body>
+	<div class="tb">
+		<img src="images/taobao.jpg">
+		<a href="#" class="z"><</a>
+		<a href="#" class="y">></a>
+		<ul class="a">
+			<li class="ii"></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+</body>
+</html>
