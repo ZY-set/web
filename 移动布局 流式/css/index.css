@@ -1,0 +1,189 @@
+body {
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.5;
+    background-color: #ccc;
+}
+
+header {
+    height: 45px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    list-style: none;
+    float: left;
+    height: 45px;
+    background-color: #333;
+    text-align: center;
+    line-height: 45px;
+}
+
+header li:nth-child(1) {
+    width: 8%;
+}
+
+header li:nth-child(1) img {
+    width: 10px;
+}
+
+header li:nth-child(2) {
+    width: 10%;
+}
+
+header li:nth-child(2) img {
+    width: 30px;
+    vertical-align: middle;
+}
+
+header li:nth-child(3) {
+    width: 57%;
+}
+
+header li:nth-child(4) {
+    width: 25%;
+    background-color: #F53413;
+}
+
+.search-f {
+    position: relative;
+    height: 44px;
+    overflow: hidden;
+}
+
+.search-e {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 44px;
+    /* background-color: pink; */
+}
+
+.search-e::before {
+    content: "";
+    width: 20px;
+    height: 18px;
+    margin-top: 14px;
+    margin-left: 15px;
+    display: block;
+    background: url(../images/s-btn.png);
+    background-size: 20px 18px;
+}
+
+.search-s {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 44px;
+    /* background-color: pink; */
+    text-align: center;
+    line-height: 44px;
+}
+
+.search {
+    position: relative;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #fff;
+    margin: 0 50px;
+    margin-top: 7px;
+}
+
+.jd {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    width: 20px;
+    height: 15px;
+    background: url(../images/jd.png);
+    background-size: 20px 15px;
+}
+
+.jd::after {
+    content: "";
+    position: absolute;
+    display: block;
+    right: -20px;
+    top: 0;
+    width: 1px;
+    height: 15px;
+    background-color: #ccc;
+}
+
+.sou {
+    position: absolute;
+    top: 8px;
+    left: 50px;
+    width: 18px;
+    height: 15px;
+    background: url(../images/jd-sprites.png) no-repeat -81px 0;
+    background-size: 200px auto;
+}
+
+.main img {
+    width: 100%;
+}
+
+.so {
+    box-sizing: border-box;
+}
+
+.bander div {
+    float: left;
+    width: 33.3%;
+}
+
+.bander img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.nav a {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.nav img {
+    width: 40px;
+    height: 40px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.news a {
+    float: left;
+    box-sizing: border-box;
+}
+
+.news img {
+    width: 100%;
+}
+
+.news a:nth-child(1) {
+    width: 50%;
+}
+
+.news a:nth-child(2) {
+    width: 25%;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.news a:nth-child(3) {
+    width: 25%;
+}
