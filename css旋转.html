@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            width: 200px;
+            border-radius: 50%;
+            border: 2px solid pink;
+            transition: all 0.2s;
+        }
+        
+        img:hover {
+            transform: rotate(360deg);
+        }
+        
+        div {
+            position: relative;
+            width: 200px;
+            height: 50px;
+            border: 1px solid #ccc;
+            transition: all 0.2s;
+        }
+        /* 添加在后面行元素 */
+        
+        div::after {
+            position: absolute;
+            content: "";
+            width: 10px;
+            height: 10px;
+            top: 17px;
+            right: 2px;
+            border-right: 1px solid #000;
+            border-bottom: 1px solid #000;
+            transform: rotate(45deg);
+        }
+        /* 鼠标经过盒子，里面的三角进行旋转 */
+        
+        div:hover::after {
+            transform: rotate(225deg);
+        }
+        
+        .diyi {
+            width: 200px;
+            height: 200px;
+            margin: auto;
+            border: 1px solid #ccc;
+            background-color: pink;
+            /* 转换效果时间 */
+            transition: all .2s;
+            /* 转换中心点 */
+            transform-origin: right bottom;
+        }
+        
+        .diyi:hover {
+            /* 旋转度数 */
+            transform: rotate(360deg);
+        }
+        
+        .dier {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            transition: all 0.2s;
+        }
+        
+        .dier:hover {
+            /* 同时放大2倍 */
+            transform: scale(2);
+        }
+    </style>
+</head>
+
+<body>
+
+    <img src="img/pic.jpg" alt="">
+
+    <div>
+
+    </div>
+    <div class="diyi">
+
+    </div>
+    <div class="dier">
+
+    </div>
+</body>
+
+</html>
