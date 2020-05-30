@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <style>
+        .container {
+            width: 750px;
+            height: 80px;
+            background-color: pink;
+            margin: auto;
+        }
+        
+        .container li {
+            float: left;
+            width: 93.75px;
+            height: 30px;
+            list-style: none;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .container {
+                width: 100%;
+            }
+            .container li {
+                width: 33.33%;
+            }
+        }
+        
+        @media screen and (min-width: 770px) {
+            .container {
+                width: 1000px;
+            }
+            .container li {
+                width: 40px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <ul>
+            <li>导航栏</li>
+            <li>导航栏</li>
+            <li>导航栏</li>
+            <li>导航栏</li>
+            <li>导航栏</li>
+            <li>导航栏</li>
+            <li>导航栏</li>
+            <li>导航栏</li>
+        </ul>
+    </div>
+    <button type="button" class="btn btn-info">信息按钮</button>
+</body>
+
+</html>

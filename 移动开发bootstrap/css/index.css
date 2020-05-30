@@ -1,0 +1,161 @@
+@media screen and (min-width:1280px) {
+    .container {
+        width: 1280px;
+    }
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: dimgray;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+header {
+    padding-left: 0 !important;
+}
+
+.logo {
+    background-color: #409AD7;
+}
+
+.logo span {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+
+.logo img {
+    /* width: 100%; */
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
+.nav {
+    background-color: #eee;
+    border-bottom: 1px solid #ccc;
+}
+
+@media screen and (max-width:991px) {
+    .nav li {
+        float: left;
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .nav li a {
+        font-size: 14px;
+    }
+    .news li:nth-child(1) {
+        width: 100% !important;
+    }
+    .new ul li {
+        width: 50%;
+    }
+    .publish h3 {
+        font-size: 14px;
+    }
+}
+
+.nav a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+.nav a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.nav a::before {
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+.news li {
+    float: left;
+    width: 25%;
+    height: 128px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+.news li a {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.news li a img {
+    width: 100%;
+    height: 100%;
+}
+
+.news li:nth-child(1) {
+    width: 50%;
+    height: 266px;
+}
+
+.news li:nth-child(1) p {
+    font-size: 14px;
+    line-height: 40px;
+    padding: 0 10px;
+}
+
+.news li a p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: rgba(0, 0, 0, .5);
+    margin-bottom: 0;
+    padding: 5 10px;
+    color: #fff;
+}
+
+.publish {
+    border-top: 1px solid #ccc;
+}
+
+.pic {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.publish .row {
+    border-bottom: 1px solid #ccc;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.hot {
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.hot span {
+    left: 20px;
+    top: 0;
+    margin-left: 15px;
+    border-radius: 0;
+}
