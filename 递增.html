@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // 前置递增先自加1，后返回值，后置递增先返回值参与运算，最后变量在自加1
+        var num = 10;
+        num++; // num++  11
+        var b = num++ + 12; // num++ 先返回原值 为11 与12相加 为23，然后自身加一，此时num为12
+        console.log(b);
+
+        var nu = 10;
+        var e = 2;
+        nu++; // num++  11
+        var s = nu++ + ++e; // num++ 先返回原值 为11 ,e先加1，再返回为3，相加为14
+        console.log(s);
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
