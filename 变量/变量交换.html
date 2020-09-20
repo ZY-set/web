@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // 先定义一个临时空变量
+        var temp;
+        var apple1 = '123'
+        var apple2 = '321'
+            // 赋值，从右向左
+            // 将1的值赋给空变量
+        temp = apple1;
+        // 2赋值给1
+        apple1 = apple2;
+        // 空赋值给2
+        apple2 = temp;
+        console.log(apple1)
+        console.log(apple2)
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
